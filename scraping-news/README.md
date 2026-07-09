@@ -74,7 +74,7 @@ Buscar noticias por palabra clave:
 python -m src.main "tecnologia"
 ```
 
-### Opciones de linea de comandos
+### Opciones de CLI
 
 ```bash
 python -m src.main PALABRA_CLAVE [OPCIONES]
@@ -83,7 +83,7 @@ Argumentos:
   PALABRA_CLAVE         Palabra clave de busqueda (requerido)
 
 Opciones:
-  -m, --max MAX         Numero maximo de articulos a extraer
+  -m, --max MAX         Numero maximo de articulos a extraer (Sin esto traera TODOS los resultados)
   -f, --format FORMAT   Formato de salida: csv o sqlite (default: csv)
   --headed              Ejecutar en modo visible (mostrar navegador)
 ```

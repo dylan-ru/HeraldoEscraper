@@ -3,3 +3,5 @@ scraping-news/venv/
 scraping-news/.pytest_cache/
 scraping-news/output/*.csv
 scraping-news/output/*.db
+venv
+output
