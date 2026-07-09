@@ -1,0 +1,16 @@
+# robots.txt for El Heraldo (Honduras) News Scraper
+# Reference: https://www.elheraldo.hn/robots.txt
+# This file documents our scraping compliance approach
+
+User-agent: *
+Crawl-delay: 3
+
+# Note: Always check the actual robots.txt at https://www.elheraldo.hn/robots.txt
+# before running the scraper to ensure compliance with the site's crawling policy.
+
+# Recommended practices:
+# 1. Respect Crawl-delay directives
+# 2. Use a descriptive User-Agent that identifies your bot
+# 3. Scrape during off-peak hours when possible
+# 4. Do not overload the server with concurrent requests
+# 5. Cache results to avoid repeated requests for the same content

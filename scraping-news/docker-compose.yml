@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  scraper:
+    build: .
+    container_name: news-scraper
+    volumes:
+      # Mount output directory to persist results
+      - ./output:/app/output
+    # Example command - override with: docker-compose run scraper "your keyword"
+    command: ["tecnología", "-f", "csv"]

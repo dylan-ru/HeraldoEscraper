@@ -1,0 +1,5 @@
+scraping-news/venv/
+**/__pycache__/
+scraping-news/.pytest_cache/
+scraping-news/output/*.csv
+scraping-news/output/*.db
